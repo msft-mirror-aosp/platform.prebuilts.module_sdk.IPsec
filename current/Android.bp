@@ -1,0 +1,37 @@
+
+
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+java_sdk_library_import {
+    name: "android.net.ipsec.ike",
+    owner: "google",
+    prefer: false,
+    shared_library: true,
+    apex_available: [
+        "com.android.ipsec",
+        "test_com.android.ipsec",
+    ],
+    public: {
+        jars: ["sdk_library/public/android.net.ipsec.ike.jar"],
+        stub_srcs: ["sdk_library/public/android.net.ipsec.ike.srcjar"],
+        current_api: "sdk_library/public/android.net.ipsec.ike.txt",
+        removed_api: "sdk_library/public/android.net.ipsec.ike-removed.txt",
+        sdk_version: "module_current",
+    },
+    system: {
+        jars: ["sdk_library/system/android.net.ipsec.ike.jar"],
+        stub_srcs: ["sdk_library/system/android.net.ipsec.ike.srcjar"],
+        current_api: "sdk_library/system/android.net.ipsec.ike.txt",
+        removed_api: "sdk_library/system/android.net.ipsec.ike-removed.txt",
+        sdk_version: "module_current",
+    },
+    module_lib: {
+        jars: ["sdk_library/module_lib/android.net.ipsec.ike.jar"],
+        stub_srcs: ["sdk_library/module_lib/android.net.ipsec.ike.srcjar"],
+        current_api: "sdk_library/module_lib/android.net.ipsec.ike.txt",
+        removed_api: "sdk_library/module_lib/android.net.ipsec.ike-removed.txt",
+        sdk_version: "module_current",
+    },
+}
