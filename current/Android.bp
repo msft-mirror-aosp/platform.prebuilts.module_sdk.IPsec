@@ -13,6 +13,13 @@ prebuilt_bootclasspath_fragment {
     apex_available: ["com.android.ipsec"],
     licenses: ["ipsec-module-sdk_Android-Apache-2.0@current"],
     contents: ["ipsec-module-sdk_android.net.ipsec.ike@current"],
+    hidden_api: {
+        stub_flags: "hiddenapi/stub-flags.csv",
+        annotation_flags: "hiddenapi/annotation-flags.csv",
+        metadata: "hiddenapi/metadata.csv",
+        index: "hiddenapi/index.csv",
+        all_flags: "hiddenapi/all-flags.csv",
+    },
 }
 
 prebuilt_bootclasspath_fragment {
@@ -22,6 +29,13 @@ prebuilt_bootclasspath_fragment {
     apex_available: ["com.android.ipsec"],
     licenses: ["ipsec-module-sdk_Android-Apache-2.0"],
     contents: ["android.net.ipsec.ike"],
+    hidden_api: {
+        stub_flags: "hiddenapi/stub-flags.csv",
+        annotation_flags: "hiddenapi/annotation-flags.csv",
+        metadata: "hiddenapi/metadata.csv",
+        index: "hiddenapi/index.csv",
+        all_flags: "hiddenapi/all-flags.csv",
+    },
 }
 
 java_sdk_library_import {
