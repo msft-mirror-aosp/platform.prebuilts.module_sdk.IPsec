@@ -49,6 +49,11 @@ java_sdk_library_import {
     licenses: ["ipsec-module-sdk_Android-Apache-2.0@current"],
     shared_library: true,
     compile_dex: true,
+    permitted_packages: [
+        "com.android.internal.net",
+        "android.net.ipsec.ike",
+        "android.net.eap",
+    ],
     public: {
         jars: ["sdk_library/public/android.net.ipsec.ike-stubs.jar"],
         stub_srcs: ["sdk_library/public/android.net.ipsec.ike.srcjar"],
@@ -86,6 +91,11 @@ java_sdk_library_import {
     licenses: ["ipsec-module-sdk_Android-Apache-2.0"],
     shared_library: true,
     compile_dex: true,
+    permitted_packages: [
+        "com.android.internal.net",
+        "android.net.ipsec.ike",
+        "android.net.eap",
+    ],
     public: {
         jars: ["sdk_library/public/android.net.ipsec.ike-stubs.jar"],
         stub_srcs: ["sdk_library/public/android.net.ipsec.ike.srcjar"],
