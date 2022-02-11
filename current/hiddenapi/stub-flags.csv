@@ -2299,7 +2299,6 @@ Lcom/android/internal/net/ipsec/ike/ChildSessionStateMachine$RekeyChildRemoteCre
 Lcom/android/internal/net/ipsec/ike/ChildSessionStateMachine$RekeyChildRemoteCreate;-><init>(Lcom/android/internal/net/ipsec/ike/ChildSessionStateMachine;)V
 Lcom/android/internal/net/ipsec/ike/ChildSessionStateMachine$RekeyChildRemoteCreate;->handleCreateChildRequest(Lcom/android/internal/net/ipsec/ike/ChildSessionStateMachine$ReceivedRequest;)V
 Lcom/android/internal/net/ipsec/ike/ChildSessionStateMachine$RekeyChildRemoteCreate;->handleCreationFailureAndBackToIdle(Landroid/net/ipsec/ike/exceptions/IkeProtocolException;)V
-Lcom/android/internal/net/ipsec/ike/ChildSessionStateMachine$RekeyChildRemoteCreate;->isKePayloadAcceptable(Lcom/android/internal/net/ipsec/ike/message/IkeKePayload;)Z
 Lcom/android/internal/net/ipsec/ike/ChildSessionStateMachine$RekeyChildRemoteCreate;->lambda$handleCreateChildRequest$0$ChildSessionStateMachine$RekeyChildRemoteCreate(Landroid/net/IpSecTransform;)V
 Lcom/android/internal/net/ipsec/ike/ChildSessionStateMachine$RekeyChildRemoteCreate;->processStateMessage(Landroid/os/Message;)Z
 Lcom/android/internal/net/ipsec/ike/ChildSessionStateMachine$RekeyChildRemoteCreate;->this$0:Lcom/android/internal/net/ipsec/ike/ChildSessionStateMachine;
@@ -4158,6 +4157,7 @@ Lcom/android/internal/net/ipsec/ike/message/IkeSaPayload;->createInitialIkeSaPay
 Lcom/android/internal/net/ipsec/ike/message/IkeSaPayload;->createRekeyIkeSaRequestPayload([Landroid/net/ipsec/ike/IkeSaProposal;Lcom/android/internal/net/ipsec/ike/utils/IkeSpiGenerator;Ljava/net/InetAddress;)Lcom/android/internal/net/ipsec/ike/message/IkeSaPayload;
 Lcom/android/internal/net/ipsec/ike/message/IkeSaPayload;->createRekeyIkeSaResponsePayload(BLandroid/net/ipsec/ike/IkeSaProposal;Lcom/android/internal/net/ipsec/ike/utils/IkeSpiGenerator;Ljava/net/InetAddress;)Lcom/android/internal/net/ipsec/ike/message/IkeSaPayload;
 Lcom/android/internal/net/ipsec/ike/message/IkeSaPayload;->encodeToByteBuffer(ILjava/nio/ByteBuffer;)V
+Lcom/android/internal/net/ipsec/ike/message/IkeSaPayload;->getNegotiatedChildProposalWithDh(Landroid/net/ipsec/ike/ChildSaProposal;Ljava/util/List;II)Landroid/net/ipsec/ike/ChildSaProposal;
 Lcom/android/internal/net/ipsec/ike/message/IkeSaPayload;->getNegotiatedProposalNumber(Landroid/net/ipsec/ike/SaProposal;)B
 Lcom/android/internal/net/ipsec/ike/message/IkeSaPayload;->getPayloadLength()I
 Lcom/android/internal/net/ipsec/ike/message/IkeSaPayload;->getTypeString()Ljava/lang/String;
