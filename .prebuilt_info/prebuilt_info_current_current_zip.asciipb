@@ -1,8 +1,8 @@
 drops {
   android_build_drop {
-    build_id: "7728754"
+    build_id: "7915236"
     target: "mainline_modules-user"
-    source_file: "mainline-sdks/ipsec-module-sdk-current.zip"
+    source_file: "mainline-sdks/current/com.google.android.ipsec/sdk/ipsec-module-sdk-current.zip"
   }
   dest_file: "current/current.zip"
   version: ""
