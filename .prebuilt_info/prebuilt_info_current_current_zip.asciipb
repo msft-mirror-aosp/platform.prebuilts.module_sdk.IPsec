@@ -1,14 +1,14 @@
 drops {
   android_build_drop {
-    build_id: "7784629"
+    build_id: "7915236"
     target: "mainline_modules-user"
-    source_file: "mainline-sdks/ipsec-module-sdk-current.zip"
+    source_file: "mainline-sdks/current/com.google.android.ipsec/sdk/ipsec-module-sdk-current.zip"
   }
   dest_file: "current/current.zip"
   version: ""
   version_group: ""
   git_project: "platform/prebuilts/module_sdk/IPsec"
-  git_branch: "sc-qpr1-dev"
+  git_branch: "sc-v2-dev"
   transform: TRANSFORM_UNZIP
   transform_options {
     rename {
