@@ -214,6 +214,7 @@ Landroid/net/ipsec/ike/IkeSessionParams;->IKE_OPTION_EAP_ONLY_AUTH:I,public-api,
 Landroid/net/ipsec/ike/IkeSessionParams;->IKE_OPTION_FORCE_PORT_4500:I,public-api,system-api,test-api
 Landroid/net/ipsec/ike/IkeSessionParams;->IKE_OPTION_INITIAL_CONTACT:I,public-api,system-api,test-api
 Landroid/net/ipsec/ike/IkeSessionParams;->IKE_OPTION_MOBIKE:I,public-api,system-api,test-api
+Landroid/net/ipsec/ike/IkeSessionParams;->IKE_OPTION_REKEY_MOBILITY:I,system-api,test-api
 Landroid/net/ipsec/ike/IkeSessionParams;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/net/ipsec/ike/IkeSessionParams;->getConfigurationRequests()Ljava/util/List;,system-api,test-api
 Landroid/net/ipsec/ike/IkeSessionParams;->getDpdDelaySeconds()I,public-api,system-api,test-api
