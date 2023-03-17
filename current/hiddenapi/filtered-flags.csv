@@ -400,7 +400,7 @@ Lcom/android/internal/net/ipsec/ike/IkeLocalRequestScheduler$LocalRequestCompara
 Lcom/android/internal/net/ipsec/ike/IkeSessionStateMachine$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/IkeSessionStateMachine$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/IkeSessionStateMachine$$ExternalSyntheticLambda3;->run()V,core-platform-api,public-api,sdk,system-api,test-api
-Lcom/android/internal/net/ipsec/ike/IkeSessionStateMachine$CreateIkeLocalIkeAuthBase$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
+Lcom/android/internal/net/ipsec/ike/IkeSessionStateMachine$CreateIkeLocalIkeAuthFirstAndLastExchangeBase$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/IkeSessionStateMachine$DeleteIkeLocalDelete$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/IkeSessionStateMachine$DeleteResponderBase$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/IkeSessionStateMachine$ExceptionHandler$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
@@ -483,6 +483,10 @@ Lcom/android/internal/net/ipsec/ike/message/IkeSaPayload$PrfTransform;->hashCode
 Lcom/android/internal/net/ipsec/ike/message/IkeSaPayload$PrfTransform;->toString()Ljava/lang/String;,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/message/IkeSaPayload$Proposal;->toString()Ljava/lang/String;,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/message/IkeSaPayload;->toString()Ljava/lang/String;,core-platform-api,public-api,sdk,system-api,test-api
+Lcom/android/internal/net/ipsec/ike/net/IkeConnectionController$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
+Lcom/android/internal/net/ipsec/ike/net/IkeConnectionController$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,sdk,system-api,test-api
+Lcom/android/internal/net/ipsec/ike/net/IkeConnectionController$$ExternalSyntheticLambda2;->run()V,core-platform-api,public-api,sdk,system-api,test-api
+Lcom/android/internal/net/ipsec/ike/net/IkeConnectionController$$ExternalSyntheticLambda3;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/net/IkeDefaultNetworkCallback;->onAvailable(Landroid/net/Network;)V,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/net/IkeDefaultNetworkCallback;->onCapabilitiesChanged(Landroid/net/Network;Landroid/net/NetworkCapabilities;)V,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/net/IkeDefaultNetworkCallback;->onLinkPropertiesChanged(Landroid/net/Network;Landroid/net/LinkProperties;)V,public-api,sdk,system-api,test-api
