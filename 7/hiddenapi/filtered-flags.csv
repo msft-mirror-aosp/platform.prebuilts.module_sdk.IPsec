@@ -387,7 +387,6 @@ Lcom/android/internal/net/eap/message/simaka/EapSimAkaAttribute$AtNotification;-
 Lcom/android/internal/net/eap/statemachine/EapSimMethodStateMachine$ChallengeState$RandChallengeResult;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/eap/statemachine/EapSimMethodStateMachine$ChallengeState$RandChallengeResult;->hashCode()I,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/ChildSessionStateMachine$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
-Lcom/android/internal/net/ipsec/ike/ChildSessionStateMachine$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/ChildSessionStateMachine$CreateChildLocalCreateBase$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/ChildSessionStateMachine$DeleteResponderBase$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/ChildSessionStateMachine$ExceptionHandler$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
@@ -429,7 +428,6 @@ Lcom/android/internal/net/ipsec/ike/SaRecord;->finalize()V,core-platform-api,pub
 Lcom/android/internal/net/ipsec/ike/ike3gpp/Ike3gppExchangeBase$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/ike3gpp/Ike3gppExtensionExchange;->close()V,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/keepalive/HardwareKeepaliveImpl$MySocketKeepaliveCb;->onError(I)V,public-api,sdk,system-api,test-api
-Lcom/android/internal/net/ipsec/ike/keepalive/HardwareKeepaliveImpl$MySocketKeepaliveCb;->onStopped()V,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/message/IkeConfigPayload$ConfigAttribute;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/message/IkeConfigPayload$ConfigAttribute;->hashCode()I,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/message/IkeConfigPayload$ConfigAttributeAppVersion;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
