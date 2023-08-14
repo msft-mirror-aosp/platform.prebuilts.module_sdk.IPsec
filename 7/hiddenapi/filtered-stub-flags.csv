@@ -210,6 +210,7 @@ Landroid/net/ipsec/ike/IkeSessionParams$IkeAuthPskConfig;->equals(Ljava/lang/Obj
 Landroid/net/ipsec/ike/IkeSessionParams$IkeAuthPskConfig;->getPsk()[B,public-api,system-api,test-api
 Landroid/net/ipsec/ike/IkeSessionParams$IkeAuthPskConfig;->hashCode()I,core-platform-api,public-api,system-api,test-api
 Landroid/net/ipsec/ike/IkeSessionParams;->IKE_OPTION_ACCEPT_ANY_REMOTE_ID:I,public-api,system-api,test-api
+Landroid/net/ipsec/ike/IkeSessionParams;->IKE_OPTION_AUTOMATIC_KEEPALIVE_ON_OFF:I,system-api,test-api
 Landroid/net/ipsec/ike/IkeSessionParams;->IKE_OPTION_EAP_ONLY_AUTH:I,public-api,system-api,test-api
 Landroid/net/ipsec/ike/IkeSessionParams;->IKE_OPTION_FORCE_PORT_4500:I,public-api,system-api,test-api
 Landroid/net/ipsec/ike/IkeSessionParams;->IKE_OPTION_INITIAL_CONTACT:I,public-api,system-api,test-api
@@ -400,7 +401,7 @@ Lcom/android/internal/net/ipsec/ike/IkeLocalRequestScheduler$LocalRequestCompara
 Lcom/android/internal/net/ipsec/ike/IkeSessionStateMachine$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/IkeSessionStateMachine$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/IkeSessionStateMachine$$ExternalSyntheticLambda3;->run()V,core-platform-api,public-api,system-api,test-api
-Lcom/android/internal/net/ipsec/ike/IkeSessionStateMachine$CreateIkeLocalIkeAuthBase$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
+Lcom/android/internal/net/ipsec/ike/IkeSessionStateMachine$CreateIkeLocalIkeAuthFirstAndLastExchangeBase$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/IkeSessionStateMachine$DeleteIkeLocalDelete$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/IkeSessionStateMachine$DeleteResponderBase$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/IkeSessionStateMachine$ExceptionHandler$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
@@ -483,6 +484,10 @@ Lcom/android/internal/net/ipsec/ike/message/IkeSaPayload$PrfTransform;->hashCode
 Lcom/android/internal/net/ipsec/ike/message/IkeSaPayload$PrfTransform;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/message/IkeSaPayload$Proposal;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/message/IkeSaPayload;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
+Lcom/android/internal/net/ipsec/ike/net/IkeConnectionController$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
+Lcom/android/internal/net/ipsec/ike/net/IkeConnectionController$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,system-api,test-api
+Lcom/android/internal/net/ipsec/ike/net/IkeConnectionController$$ExternalSyntheticLambda2;->run()V,core-platform-api,public-api,system-api,test-api
+Lcom/android/internal/net/ipsec/ike/net/IkeConnectionController$$ExternalSyntheticLambda3;->run()V,core-platform-api,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/net/IkeDefaultNetworkCallback;->onAvailable(Landroid/net/Network;)V,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/net/IkeDefaultNetworkCallback;->onCapabilitiesChanged(Landroid/net/Network;Landroid/net/NetworkCapabilities;)V,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/net/IkeDefaultNetworkCallback;->onLinkPropertiesChanged(Landroid/net/Network;Landroid/net/LinkProperties;)V,public-api,system-api,test-api
@@ -508,3 +513,4 @@ Lcom/android/internal/net/ipsec/ike/utils/StateMachine;->toString()Ljava/lang/St
 Lcom/android/internal/net/ipsec/ike/utils/WakeupMessage;->onAlarm()V,public-api,system-api,test-api
 Lcom/android/internal/net/vcn/util/PersistableBundleUtils$PersistableBundleWrapper;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/internal/net/vcn/util/PersistableBundleUtils$PersistableBundleWrapper;->hashCode()I,core-platform-api,public-api,system-api,test-api
+Lcom/android/internal/net/vcn/util/PersistableBundleUtils$PersistableBundleWrapper;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
