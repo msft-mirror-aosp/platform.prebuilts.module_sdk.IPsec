@@ -490,7 +490,6 @@ Lcom/android/internal/net/ipsec/ike/net/IkeConnectionController$$ExternalSynthet
 Lcom/android/internal/net/ipsec/ike/net/IkeConnectionController$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/net/IkeConnectionController$$ExternalSyntheticLambda2;->run()V,core-platform-api,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/net/IkeConnectionController$$ExternalSyntheticLambda3;->run()V,core-platform-api,public-api,system-api,test-api
-Lcom/android/internal/net/ipsec/ike/net/IkeConnectionController$Ipv6AddrInfo;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/net/IkeDefaultNetworkCallback;->onAvailable(Landroid/net/Network;)V,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/net/IkeDefaultNetworkCallback;->onCapabilitiesChanged(Landroid/net/Network;Landroid/net/NetworkCapabilities;)V,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/net/IkeDefaultNetworkCallback;->onLinkPropertiesChanged(Landroid/net/Network;Landroid/net/LinkProperties;)V,public-api,system-api,test-api
