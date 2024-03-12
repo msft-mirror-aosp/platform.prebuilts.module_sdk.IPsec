@@ -502,8 +502,8 @@ Lcom/android/internal/net/ipsec/ike/testmode/DeterministicSecureRandom;->getAlgo
 Lcom/android/internal/net/ipsec/ike/testmode/DeterministicSecureRandom;->nextBytes([B)V,core-platform-api,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/testmode/DeterministicSecureRandom;->setSeed(J)V,core-platform-api,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/testmode/DeterministicSecureRandom;->setSeed([B)V,core-platform-api,public-api,system-api,test-api
-Lcom/android/internal/net/ipsec/ike/utils/FdEventsReader$$ExternalSyntheticLambda0;->onFileDescriptorEvents(Ljava/io/FileDescriptor;I)I,public-api,system-api,test-api
-Lcom/android/internal/net/ipsec/ike/utils/FdEventsReader$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,system-api,test-api
+Lcom/android/internal/net/ipsec/ike/utils/FdEventsReader$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
+Lcom/android/internal/net/ipsec/ike/utils/FdEventsReader$$ExternalSyntheticLambda1;->onFileDescriptorEvents(Ljava/io/FileDescriptor;I)I,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/utils/FdEventsReader$$ExternalSyntheticLambda2;->run()V,core-platform-api,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/utils/IkeAlarmReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/utils/IkeSecurityParameterIndex;->close()V,core-platform-api,public-api,system-api,test-api
