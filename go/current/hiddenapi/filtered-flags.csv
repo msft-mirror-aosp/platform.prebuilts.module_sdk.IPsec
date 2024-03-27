@@ -401,7 +401,7 @@ Lcom/android/internal/net/ipsec/ike/ChildSessionStateMachine$RekeyChildRemoteDel
 Lcom/android/internal/net/ipsec/ike/IkeLocalRequestScheduler$LocalRequestComparator;->compare(Ljava/lang/Object;Ljava/lang/Object;)I,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/IkeSessionStateMachine$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/IkeSessionStateMachine$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,sdk,system-api,test-api
-Lcom/android/internal/net/ipsec/ike/IkeSessionStateMachine$$ExternalSyntheticLambda2;->run()V,core-platform-api,public-api,sdk,system-api,test-api
+Lcom/android/internal/net/ipsec/ike/IkeSessionStateMachine$$ExternalSyntheticLambda3;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/IkeSessionStateMachine$CreateIkeLocalIkeAuthFirstAndLastExchangeBase$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/IkeSessionStateMachine$DeleteIkeLocalDelete$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/IkeSessionStateMachine$DeleteResponderBase$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
@@ -502,12 +502,13 @@ Lcom/android/internal/net/ipsec/ike/testmode/DeterministicSecureRandom;->getAlgo
 Lcom/android/internal/net/ipsec/ike/testmode/DeterministicSecureRandom;->nextBytes([B)V,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/testmode/DeterministicSecureRandom;->setSeed(J)V,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/testmode/DeterministicSecureRandom;->setSeed([B)V,core-platform-api,public-api,sdk,system-api,test-api
-Lcom/android/internal/net/ipsec/ike/utils/FdEventsReader$$ExternalSyntheticLambda0;->onFileDescriptorEvents(Ljava/io/FileDescriptor;I)I,public-api,sdk,system-api,test-api
-Lcom/android/internal/net/ipsec/ike/utils/FdEventsReader$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,sdk,system-api,test-api
+Lcom/android/internal/net/ipsec/ike/utils/FdEventsReader$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
+Lcom/android/internal/net/ipsec/ike/utils/FdEventsReader$$ExternalSyntheticLambda1;->onFileDescriptorEvents(Ljava/io/FileDescriptor;I)I,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/utils/FdEventsReader$$ExternalSyntheticLambda2;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/utils/IkeAlarmReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/utils/IkeSecurityParameterIndex;->close()V,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/utils/IkeSecurityParameterIndex;->finalize()V,core-platform-api,public-api,sdk,system-api,test-api
+Lcom/android/internal/net/ipsec/ike/utils/LivenessAssister$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/utils/StateMachine$LogRec;->toString()Ljava/lang/String;,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/utils/StateMachine$SmHandler$$ExternalSyntheticLambda0;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/utils/StateMachine$SmHandler$StateInfo;->toString()Ljava/lang/String;,core-platform-api,public-api,sdk,system-api,test-api
