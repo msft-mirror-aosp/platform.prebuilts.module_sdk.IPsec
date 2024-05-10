@@ -387,7 +387,6 @@ Lcom/android/internal/net/eap/message/simaka/EapSimAkaAttribute$AtNotification;-
 Lcom/android/internal/net/eap/statemachine/EapSimMethodStateMachine$ChallengeState$RandChallengeResult;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/internal/net/eap/statemachine/EapSimMethodStateMachine$ChallengeState$RandChallengeResult;->hashCode()I,core-platform-api,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/ChildSessionStateMachine$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
-Lcom/android/internal/net/ipsec/ike/ChildSessionStateMachine$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/ChildSessionStateMachine$CreateChildLocalCreateBase$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/ChildSessionStateMachine$DeleteResponderBase$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/ChildSessionStateMachine$ExceptionHandler$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
@@ -429,7 +428,6 @@ Lcom/android/internal/net/ipsec/ike/SaRecord;->finalize()V,core-platform-api,pub
 Lcom/android/internal/net/ipsec/ike/ike3gpp/Ike3gppExchangeBase$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/ike3gpp/Ike3gppExtensionExchange;->close()V,core-platform-api,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/keepalive/HardwareKeepaliveImpl$MySocketKeepaliveCb;->onError(I)V,public-api,system-api,test-api
-Lcom/android/internal/net/ipsec/ike/keepalive/HardwareKeepaliveImpl$MySocketKeepaliveCb;->onStopped()V,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/message/IkeConfigPayload$ConfigAttribute;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/message/IkeConfigPayload$ConfigAttribute;->hashCode()I,core-platform-api,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/message/IkeConfigPayload$ConfigAttributeAppVersion;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
@@ -490,7 +488,6 @@ Lcom/android/internal/net/ipsec/ike/net/IkeConnectionController$$ExternalSynthet
 Lcom/android/internal/net/ipsec/ike/net/IkeConnectionController$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/net/IkeConnectionController$$ExternalSyntheticLambda2;->run()V,core-platform-api,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/net/IkeConnectionController$$ExternalSyntheticLambda3;->run()V,core-platform-api,public-api,system-api,test-api
-Lcom/android/internal/net/ipsec/ike/net/IkeConnectionController$Ipv6AddrInfo;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/net/IkeDefaultNetworkCallback;->onAvailable(Landroid/net/Network;)V,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/net/IkeDefaultNetworkCallback;->onCapabilitiesChanged(Landroid/net/Network;Landroid/net/NetworkCapabilities;)V,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/net/IkeDefaultNetworkCallback;->onLinkPropertiesChanged(Landroid/net/Network;Landroid/net/LinkProperties;)V,public-api,system-api,test-api
@@ -502,8 +499,8 @@ Lcom/android/internal/net/ipsec/ike/testmode/DeterministicSecureRandom;->getAlgo
 Lcom/android/internal/net/ipsec/ike/testmode/DeterministicSecureRandom;->nextBytes([B)V,core-platform-api,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/testmode/DeterministicSecureRandom;->setSeed(J)V,core-platform-api,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/testmode/DeterministicSecureRandom;->setSeed([B)V,core-platform-api,public-api,system-api,test-api
-Lcom/android/internal/net/ipsec/ike/utils/FdEventsReader$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
-Lcom/android/internal/net/ipsec/ike/utils/FdEventsReader$$ExternalSyntheticLambda1;->onFileDescriptorEvents(Ljava/io/FileDescriptor;I)I,public-api,system-api,test-api
+Lcom/android/internal/net/ipsec/ike/utils/FdEventsReader$$ExternalSyntheticLambda0;->onFileDescriptorEvents(Ljava/io/FileDescriptor;I)I,public-api,system-api,test-api
+Lcom/android/internal/net/ipsec/ike/utils/FdEventsReader$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/utils/FdEventsReader$$ExternalSyntheticLambda2;->run()V,core-platform-api,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/utils/IkeAlarmReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V,public-api,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/utils/IkeSecurityParameterIndex;->close()V,core-platform-api,public-api,system-api,test-api
